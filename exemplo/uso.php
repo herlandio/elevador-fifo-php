@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../src/Elevador.php';
+require __DIR__ . '/../src/fifo.php';
 
 $elevador = new Elevador(6);
 $elevador->chamar(3);
