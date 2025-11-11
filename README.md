@@ -2,6 +2,11 @@ Elevador FIFO (PHP + SplQueue)
 
 Implementação simples de um elevador que processa chamados por ordem de chegada (FIFO) usando SplQueue.
 
+Faça o clone:
+```
+git clone https://github.com/herlandio/elevador-fifo-php.git
+```
+
 Requisitos
 
 PHP ≥ 7.4 (ou superior)
@@ -10,9 +15,6 @@ Extensão SPL habilitada
 
 Uso rápido
 
-2) Exemplo mínimo
-
-exemplo/uso.php
 ```
 <?php
 require __DIR__ . '/../src/fifo.php';
